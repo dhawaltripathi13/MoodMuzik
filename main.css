@@ -17,7 +17,13 @@ h1 {
     border: 0;
     margin: 0;
 }
-
+.username
+{
+  height: 80px;
+  background-color: #282828;
+  padding: 1rem;
+  color: #FFF;
+}
 .wrapper {
     height: 100%;
     width: 100%;
@@ -290,7 +296,11 @@ table.dataTable tbody tr {
     margin : 40px;
 }
 .gallery {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+    padding: 5px;
+}
+.image-div
+{
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
 }
