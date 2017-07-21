@@ -249,17 +249,40 @@ function changeCurrentSongDetails(songObj) {
     $('.current-song-album').text(songObj.album)
   }
 
+
   $('.welcome-screen button').on('click', function() {
-  var name = $('#name-input').val();
-  if(name.length > 2) {
-  var message = "Welcome, " +  name;
+    var name = $('#name-input').val();
+  if(name.length > 3) {
+  var message = "Welcome, " +  name + ".";
   $('.gallery .user-name').text(message);
   $('.welcome-screen').addClass('hidden');
   $('.gallery').removeClass('hidden');
   }
   else {
   $('#name-input').addClass('error');
+  $('#name-input').val('');
+  $('#name-input').attr("placeholder", "Name too short! Try Again.");
   }
+  });
+
+  $('body').on('keypress', function() {
+    var name = $('#name-input').val();
+    if(event.keyCode==13)
+    {
+      if(name.length > 3) {
+      var message = "Welcome, " +  name + ".";
+      $('.gallery .user-name').text(message);
+      $('.welcome-screen').addClass('hidden');
+      $('.gallery').removeClass('hidden');
+      }
+      else {
+      $('#name-input').addClass('error');
+      $('#name-input').val('');
+      $('#name-input').attr("placeholder", "Name too short! Try Again.");
+      }
+    }
+
+
   });
 
   $('.play-icon').on('click',function()
@@ -275,7 +298,26 @@ function changeCurrentSongDetails(songObj) {
         toggleSong();
     }
 });
-
+$('#back-happy').on('click',function()
+{
+  $('.gallery').removeClass('hidden');
+  $('.happy').addClass('hidden');
+})
+$('#back-sad').on('click',function()
+{
+  $('.gallery').removeClass('hidden');
+  $('.sad').addClass('hidden');
+})
+$('#back-relax').on('click',function()
+{
+  $('.gallery').removeClass('hidden');
+  $('.relax').addClass('hidden');
+})
+$('#back-party').on('click',function()
+{
+  $('.gallery').removeClass('hidden');
+  $('.party').addClass('hidden');
+})
   // $('#name-input').on('keypress', function() {
   // var name = $('#name-input').val();
   // if(name.length > 2 && event.keyCode == 13)

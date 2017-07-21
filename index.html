@@ -12,15 +12,18 @@
     <div class="wrapper">
         <section class="welcome-screen">
             <img src="img/moody.png" alt="" style="height: 40%; width: 60%">
-            <h3> Free Streaming, Just Enter Your Name! </h3>
+            <h3 style="font-family: helvetica; color:#4c4c4c"> Free Music Streaming, Just Enter Your Name! </h3>
             <div class="input-wrapper">
-                <input type="text" placeholder="Name" id="name-input">
-                <button> Go </button>
+                <input type="text" placeholder="Enter your name, then press Enter!" id="name-input" style="width:250px;" autofocus="autofocus">
+                <button style="background-color:#d7ddea; border-color:;font-family: helvetica; color:#4c4c4c"> Go! </button>
             </div>
         </section>
         <!-- This div is hidden right now, and is going to stay the same way unless a function is triggered which removes class hidden.  -->
         <div class="gallery hidden">
-          <header> <div class="right floated user-name">  </div> </header>
+          <header> <div class="right floated user-name" style="font-family: helvetica; color: #F3F9A7; font-weight: bold; margin-right:15px">  </div><br> </header>
+          <div>
+            <h1 style="font-family: helvetica; color: White ; font-weight: bold; text-align:center;margin-right:80px">How's Your Mood Today?</h1>
+          </div>
           <div class="image-div">
             <img src="img/happy.jpg" alt="not" id="happy" class="img-gallery">
             <img src="img/sad.jpg" alt="not" id="sad"  class="img-gallery">
@@ -31,8 +34,10 @@
         </div>
 
         <div class="happy hidden">
+          <i class="fa fa-arrow-left" aria-hidden="true" style="margin:20px" id="back-happy"> Back To Gallery</i>
         <section class="content">
           <audio src="happy1.mp3"></audio>
+
             <table id="happytable">
     <thead class="list-headers">
             <tr><td> Title </td>
@@ -93,6 +98,7 @@
         </div>
 
         <div class="sad hidden">
+          <i class="fa fa-arrow-left" aria-hidden="true" style="margin:20px" id="back-sad"> Back To Gallery</i>
         <section class="content">
           <audio src="sad1.mp3"></audio>
             <table id="sadtable">
@@ -155,6 +161,7 @@
         </div>
 
         <div class="relax hidden">
+          <i class="fa fa-arrow-left" aria-hidden="true" style="margin:20px" id="back-relax"> Back To Gallery</i>
         <section class="content">
           <audio src="relax1.mp3"></audio>
             <table id="relaxtable">
@@ -217,6 +224,7 @@
         </div>
 
         <div class="party hidden">
+          <i class="fa fa-arrow-left" aria-hidden="true" style="margin:20px" id="back-party"> Back To Gallery</i>
         <section class="content">
           <audio src="party1.mp3"></audio>
             <table id="partytable">
