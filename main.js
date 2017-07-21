@@ -432,3 +432,4 @@ $('#party').on('click',function()
         paging: false
     });
 })
+$('.dataTables_filter input').attr("placeholder", "Search Song");
