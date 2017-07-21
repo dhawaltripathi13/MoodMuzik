@@ -70,9 +70,9 @@ background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, F
     display: flex;
     flex-direction: column;
     color: white;
-    background: #c0c0aa;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #283c86;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .party {
@@ -241,6 +241,21 @@ background: linear-gradient(to right, #FF070B, #E5008D, #000000);
     width: 800px;
     margin: 2rem auto;
 }
+.sad .content {
+    width: 800px;
+    margin: 2rem auto;
+}
+
+.relax .content {
+    width: 800px;
+    margin: 2rem auto;
+}
+
+.party .content {
+    width: 800px;
+    margin: 2rem auto;
+}
+
 
 .list-headers {
     padding-bottom: 0.5rem;
