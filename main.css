@@ -27,7 +27,10 @@ h1 {
 .wrapper {
     height: 100%;
     width: 100%;
-    background-color: #BBB;
+    background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .welcome-screen {
@@ -45,7 +48,10 @@ h1 {
     display: flex;
     flex-direction: column;
     color: white;
-    background-color: #1f1f1f;
+    background: #CAC531;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .sad {
     width: 100%;
@@ -53,7 +59,10 @@ h1 {
     display: flex;
     flex-direction: column;
     color: white;
-    background-color: #1f1f1f;
+    background: #20002c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .relax {
     width: 100%;
@@ -61,7 +70,10 @@ h1 {
     display: flex;
     flex-direction: column;
     color: white;
-    background-color: #1f1f1f;
+    background: #c0c0aa;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .party {
     width: 100%;
@@ -69,78 +81,109 @@ h1 {
     display: flex;
     flex-direction: column;
     color: white;
-    background-color: #1f1f1f;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF070B, #E5008D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF070B, #E5008D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
 }
 
 .happy header {
     height: 80px;
     background-color: #282828;
     padding: 1rem;
-    color: #FFF;
+    color: Black;
+    font-family: helvetica;
 }
 
 .happy .content {
     flex:1;
-    background-color: #1f1f1f;
+    background: #CAC531;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: Black;
+font-family: helvetica;
 }
 
 .happy footer {
     height: 80px;
-    background-color: #282828;
+    background: #CAC531;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-top: 1rem;
 }
 
 .sad header {
     height: 80px;
-    background-color: #282828;
+    background: #20002c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cbb4d4, #20002c);
     padding: 1rem;
     color: #FFF;
 }
 
 .sad .content {
     flex:1;
-    background-color: #1f1f1f;
+    background: #20002c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cbb4d4, #20002c);
 }
 
 .sad footer {
     height: 80px;
-    background-color: #282828;
+    background: #20002c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cbb4d4, #20002c);
     padding-top: 1rem;
 }
 
 .relax header {
     height: 80px;
-    background-color: #282828;
+    background: #283c86;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding: 1rem;
     color: #FFF;
 }
 
 .relax .content {
     flex:1;
-    background-color: #1f1f1f;
+    background: #283c86;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .relax footer {
     height: 80px;
-    background-color: #282828;
+    background: #283c86;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding-top: 1rem;
 }
 
 .party header {
     height: 80px;
-    background-color: #282828;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF070B, #E5008D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF070B, #E5008D, #000000);
     padding: 1rem;
     color: #FFF;
 }
 
 .party .content {
     flex:1;
-    background-color: #1f1f1f;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF070B, #E5008D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF070B, #E5008D, #000000);
 }
 
 .party footer {
     height: 80px;
-    background-color: #282828;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF070B, #E5008D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF070B, #E5008D, #000000);
     padding-top: 1rem;
 }
 .player-buttons {
@@ -286,17 +329,57 @@ table.dataTable tbody tr {
     margin-bottom: 1rem;
     font-size: 16px;
 }
+#sad_info {
+    display: none;
+}
 
+#sad_filter {
+    color: transparent;
+}
+#sad_filter input {
+    width: 400px;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+#party_info {
+    display: none;
+}
+
+#party_filter {
+    color: transparent;
+}
+#party_filter input {
+    width: 400px;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+#relax_info {
+    display: none;
+}
+
+#relax_filter {
+    color: transparent;
+}
+#relax_filter input {
+    width: 400px;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
 .img-gallery{
     height:200px;
     width: 200px;
     border-radius: 20px;
     text-align: center;
-    border: 2px solid #d3d3d3;
+    border: 2px solid #f97807;
     margin : 40px;
+
 }
 .gallery {
     padding: 5px;
+    background: #FF4E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .image-div
 {

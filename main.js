@@ -104,7 +104,7 @@ var party = [
         'image' : 'party1.jpg',
     },
     {
-        'name': 'In Da CLub',
+        'name': 'In Da Club',
         'artist': '50 Cent',
         'album': 'Get Rich Or Die Tryin\'',
         'duration': '3:13',
